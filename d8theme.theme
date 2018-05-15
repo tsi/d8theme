@@ -1,0 +1,8 @@
+<?php
+/**
+ * @file
+ * d8theme theme implementation file.
+ */
+
+use Drupal\node\Entity\Node;
+use Drupal\group\Entity\GroupContent;

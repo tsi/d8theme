@@ -1,0 +1,57 @@
+// Typography
+// --------------------------------------------------
+
+@import url('https://fonts.googleapis.com/css?family=Assistant:200,300,400,600,700&subset=hebrew');
+
+body {
+  font-family: "Assistant", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.42857143;
+  color: $color_text;
+  background-color: white;
+  text-align: justify;
+}
+li {
+  text-align: right;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+  font-family: "Assistant", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  line-height: 1.1;
+  color: $color_black;
+}
+
+.h1, h1 {
+  font-size: 46px;
+}
+
+.h2, h2 {
+  font-size: 32px;
+}
+
+.h3, h3 {
+  font-size: 24px;
+}
+
+.h4, h4 {
+  font-size: 18px;
+}
+
+.h5, h5 {
+  font-size: 16px;
+}
+
+.h6, h6 {
+  font-size: 14px;
+}
+
+a {
+  text-decoration: none;
+  transition: color .3s;
+  color: $color_cian;
+  &:hover,
+  &:active {
+    color: lighten($color_cian, 10%);
+  }
+}

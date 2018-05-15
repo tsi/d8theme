@@ -1,0 +1,12 @@
+main:
+  version: VERSION
+  css:
+    base:
+      assets/css/style.css: { preprocess: false }
+  js:
+      assets/js/d8theme.js: {}
+  dependencies:
+    - core/jquery
+    - core/jquery.once
+    - core/drupal
+    - core/drupalSettings

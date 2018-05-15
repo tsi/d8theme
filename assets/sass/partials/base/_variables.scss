@@ -1,0 +1,43 @@
+// ----------------------------------------------
+//                  Variables
+// ----------------------------------------------
+
+// Colors
+$color_text: #6d6e71;
+$color_black: #231F20;
+$color_cian: #27aae1;
+$color_gold: #d9b310;
+
+// Spacing
+$space_lg: 40px;
+$space_md: 20px;
+$space_sm: 10px;
+$space_xs: 5px;
+
+// Font sizing
+$font-size--xs: 10px;
+$font-size--sm: 12px;
+$font-size--md: 16px;
+$font-size--lg: 24px;
+$font-size--xl: 32px;
+
+// Border radius
+$radius_md: 8px;
+$radius_sm: 4px;
+
+// Media queries breakpoints
+$screen-xs:                  480px !default;
+$screen-sm:                  601px !default;
+$screen-md:                  820px !default;
+$screen-lg:                  1200px !default;
+$screen-xs-max:              ($screen-sm - 1) !default;
+$screen-sm-max:              ($screen-md - 1) !default;
+$screen-md-max:              ($screen-lg - 1) !default;
+
+$min-lg: "(min-width: #{$screen-lg})";
+$max-lg: "(max-width: #{$screen-md-max})";
+$min-md: "(min-width: #{$screen-md})";
+$max-md: "(max-width: #{$screen-sm-max})";
+$min-sm: "(min-width: #{$screen-sm})";
+$max-sm: "(max-width: #{$screen-xs-max})";
+$max-xs: "(max-width: #{$screen-xs})";

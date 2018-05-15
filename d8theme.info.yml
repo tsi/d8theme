@@ -1,0 +1,19 @@
+name: Kolot theme
+type: theme
+description: Theme by TAY
+base theme: classy
+core: 8.x
+
+libraries:
+  - ktheme/main
+
+regions:
+  header: 'Header'
+  page_top: 'Page top'
+  highlighted: 'Highlighted area'
+  navigation: 'Navigation'
+  content: 'Content'
+  sidebar_first: 'First sidebar'
+  sidebar_second: 'Second sidebar'
+  page_bottom: 'Page bottom'
+  footer: 'Footer'
