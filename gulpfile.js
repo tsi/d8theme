@@ -76,7 +76,7 @@ gulp.task('clean', function () {
  */
 gulp.task('serve', ['sass-compile', 'js'], function() {
   browserSync.init({
-    proxy: "http://kolot.lh:8888",
+    proxy: "http://d8",
     port: 3000
   });
 });
@@ -95,4 +95,3 @@ gulp.task('watch', ['serve'], function () {
  * Watch files and do stuff.
  */
 gulp.task('default', ['watch']);
-
