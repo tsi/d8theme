@@ -1,11 +1,11 @@
-name: Kolot theme
+name: d8theme theme
 type: theme
 description: Theme by TAY
 base theme: classy
 core: 8.x
 
 libraries:
-  - ktheme/main
+  - d8theme/main
 
 regions:
   header: 'Header'
